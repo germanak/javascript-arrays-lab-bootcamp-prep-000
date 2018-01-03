@@ -35,7 +35,7 @@ function removeLastKitten(name) {
   return array;
 }
 
-function appendKitten(name) {
-  var array = [...kittens, name];
+function removeFirstKitten(name) {
+  var array = kittens.slice(1);
   return array;
 }
